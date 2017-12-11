@@ -1,0 +1,73 @@
+<HTML>
+
+ <HEAD>
+    <TITLE>The Pingry School - Community Service</TITLE>
+    <link rel="stylesheet" href="style.css" type="text/css">
+ </HEAD>
+
+<BODY>
+    <H1 ALIGN="center"><IMG WIDTH="250"
+SRC="pingry.gif"
+ALT="The Pingry School"><br>Community Service</H1>
+    <DIV ALIGN="center">
+      <H2>Welcome, $FIRSTNAME $LASTNAME.</H2>
+<TABLE BORDER="0" CELLPADDING="4">
+<TR>
+  <TD>
+      <P><A HREF="advisor-summary.cgi"><IMG SRC="summary.png" ALT="" BORDER="0"></A> <A HREF="advisor-summary.cgi">Summary for $GRADE grade</A></P>
+  </TD>
+  <TD>
+      <P>&nbsp;</P>
+  </TD>
+  <TD>
+      <P><A HREF="logout.cgi"><IMG SRC="logout.png" ALT="" BORDER="0"></A> <A HREF="logout.cgi">Logout</A></P>
+  </TD>
+</TR>
+<TR>
+  <TD COLSPAN="3">
+<FORM ACTION="advisor-studentdetail.cgi" METHOD="POST">
+      <P ALIGN="center">Detail for
+<SELECT NAME="student">
+<OPTION VALUE="" SELECTED></OPTION>
+$STUDENTS1</SELECT> <INPUT TYPE="submit" VALUE="Show">
+      </P>
+</FORM>
+  </TD>
+</TR>
+<TR>
+  <TD COLSPAN="3">
+<FORM ACTION="advisor-studentdetail.cgi" METHOD="POST">
+      <P ALIGN="center">
+      <HR WIDTH="25%">
+<H2 ALIGN="center">Entire School</H2>
+Detail for
+<SELECT NAME="student">
+<OPTION VALUE="" SELECTED></OPTION>
+$STUDENTS2</SELECT> <INPUT TYPE="submit" VALUE="Show">
+      </P>
+</FORM>
+  </TD>
+</TR>
+</TABLE>
+      <HR WIDTH="25%">
+<H2 ALIGN="center">Pending Activity Reports</H2>
+<FORM ACTION="advisor-update.cgi" METHOD="POST">
+      <TABLE BORDER="0" CELLPADDING="4">
+      <TR>
+        <TD><FONT SIZE="-1"><U>Student</U></FONT></TD>
+        <TD><FONT SIZE="-1"><U>Date(s)</U></FONT></TD>
+        <TD><FONT SIZE="-1"><U>Organization</U></FONT></TD>
+        <TD><FONT SIZE="-1"><U>Hours</U></FONT></TD>
+        <TD><FONT SIZE="-1"><U>Status</U></FONT></TD>
+      </TR>
+      $ACTIVITY
+      </TABLE>
+<P ALIGN="center"><INPUT TYPE="submit" NAME="submit" VALUE="Update activity status"></P>
+</FORM>
+      <HR WIDTH="25%">
+      <P><A HREF="advisor-change.cgi">Update Community Service Advisors</A></P>
+      <P><A HREF="advisor-report.cgi">Download Community Service Merge Data</A></P>
+   </DIV>
+</BODY>
+
+</HTML>

@@ -1,0 +1,34 @@
+<HTML>
+
+ <HEAD>
+    <TITLE>The Pingry School - Community Service</TITLE>
+    <link rel="stylesheet" href="style.css" type="text/css">
+ </HEAD>
+
+<BODY>
+    <H1 ALIGN="center"><IMG WIDTH="250"
+SRC="pingry.gif"
+ALT="The Pingry School"><br>Community Service</H1>
+    <DIV ALIGN="center">
+      <P><A HREF="mailto:$STUDENTEMAIL">$NAME</A></P>
+      <P><FONT SIZE="-1">Approved Hours: $HOURSCOMPLETED</FONT></P>
+<FORM ACTION="advisor-update.cgi" METHOD="POST">
+      <TABLE BORDER="0" CELLPADDING="4">
+      <TR>
+        <TD><FONT SIZE="-1"><U>Date(s)</U></FONT></TD>
+        <TD><FONT SIZE="-1"><U>Organization</U></FONT></TD>
+        <TD><FONT SIZE="-1"><U>Hours</U></FONT></TD>
+        <TD><FONT SIZE="-1"><U>Status</U></FONT></TD>
+      </TR>
+      $ACTIVITY
+      </TABLE>
+<P ALIGN="center"><INPUT TYPE="submit" NAME="submit" VALUE="Update activity status"></P>
+</FORM>
+<HR WIDTH="25%">
+     <FORM METHOD="POST" ACTION="advisor-main.cgi">
+      <P><INPUT TYPE="submit" VALUE="Return to Main Menu"></P>
+    </FORM>
+   </DIV>
+</BODY>
+
+</HTML>

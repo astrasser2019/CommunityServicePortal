@@ -1,0 +1,44 @@
+<HTML>
+
+ <HEAD>
+    <TITLE>The Pingry School - Community Service</TITLE>
+    <link rel="stylesheet" href="style.css" type="text/css">
+ </HEAD>
+
+<BODY>
+    <H1 ALIGN="center"><IMG WIDTH="250" 
+SRC="pingry.gif" 
+ALT="The Pingry School"><br>Community Service</H1>
+    <DIV ALIGN="center">
+      <H2>Welcome, $FIRSTNAME $LASTNAME.<BR>
+      <!-- The $GRADE grade Community Service Advisor is <A HREF="mailto:$CSAEMAIL">$CSADVISOR</A>.<BR> -->
+      You have completed $HOURSCOMPLETE out of $HOURSTOTAL community service hours this year.</H2>
+<TABLE BORDER="0" CELLPADDING="4">
+<TR>
+  <TD>
+      <P><A HREF="student-add.cgi"><IMG SRC="new.png" ALT="" BORDER="0"></A> <A HREF="student-add.cgi">Add service record</A></P>
+  </TD>
+  <TD>
+      <P>&nbsp;</P>
+  </TD>
+  <TD>
+      <P><A HREF="logout.cgi"><IMG SRC="logout.png" ALT="" BORDER="0"></A> <A HREF="logout.cgi">Logout</A></P>
+  </TD>
+</TR>
+</TABLE>
+      <HR WIDTH="25%">
+      <TABLE BORDER="0" CELLPADDING="4">
+      <TR>
+        <TD><FONT SIZE="-1"><U>Date(s)</U></FONT></TD>
+        <TD><FONT SIZE="-1"><U>Organization</U></FONT></TD>
+        <TD><FONT SIZE="-1"><U>Hours</U></FONT></TD>
+        <TD><FONT SIZE="-1"><U>Status</U></FONT></TD>
+        <TD><FONT SIZE="-1">&nbsp;</FONT></TD>
+      </TR>
+      $ACTIVITY
+      </TABLE>
+   </DIV>
+</BODY>
+
+</HTML>
+
