@@ -1,9 +1,9 @@
 <style type="text/css">
 <!--
 /* General page style. The scroll bar colours only visible in IE5.5+ */
-body {
-	background-color: #FFFFFF;
-}
+/* body {
+	background-color: #4b86d6;
+} */
 
 /* General font families for common tags */
 font,th,td,p { font-family: Verdana, Arial, Helvetica, sans-serif }
@@ -16,17 +16,23 @@ td.row1	{ background-color: #EFEFEF; }
 td.row2	{ background-color: #DEE3E7; }
 td.row3	{ background-color: #D1D7DC; }
 
+body {
+	background-color: #FFFFFF;
+}
+
+
 /* General text */
-.gen { font-size : 12px; }
-.genmed { font-size : 11px; }
-.gensmall { font-size : 10px; }
+.gen { font-size : 15px; }
+.genmed { font-size : 14px; }
+.gensmall { font-size : 13px; }
 .gen,.genmed,.gensmall { color : #003366; }
 a.gen,a.genmed,a.gensmall { color: #006699; text-decoration: none; }
 a.gen:hover,a.genmed:hover,a.gensmall:hover	{ color: #DD6900; text-decoration: underline; }
+.label {color: #004785; text-shadow: 1px 1px #004785;  font-size: 30px;}
 
 /* titles for the topics: could specify viewed link colour too */
-.topictitle,h1	{ font-weight: bold; font-size: 24px; color : #003366; }
-.topictitle,h2	{ font-weight: bold; font-size: 14px; color : #003366; }
+.topictitle,h1	{ font-weight: bold; font-size: 27px; color : #003366; }
+.topictitle,h2	{ font-weight: bold; font-size: 17px; color : #003366; }
 a.topictitle:link   { text-decoration: none; color : #006699; }
 a.topictitle:visited { text-decoration: none; color : #5493B4; }
 a.topictitle:hover	{ text-decoration: underline; color : #DD6900; }
@@ -37,10 +43,10 @@ a.topictitle:hover	{ text-decoration: underline; color : #DD6900; }
 /* Form elements */
 input,textarea, select {
 	color : #000000;
-	font: normal 11px Verdana, Arial, Helvetica, sans-serif;
+	font: normal 14px Verdana, Arial, Helvetica, sans-serif;
 	border: none;
-	border-radius: 10px;
-	margin-top: 10px;
+	border-radius: 13px;
+	margin-top: 13px;
 	background-color: #cfe7f3;
 }
 
@@ -55,7 +61,7 @@ input { text-indent : 2px; }
 input.button {
 	background-color : #EFEFEF;
 	color : #000000;
-	font-size: 11px; font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 14px; font-family: Verdana, Arial, Helvetica, sans-serif;
 }
 
 -->
