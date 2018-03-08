@@ -7,9 +7,9 @@ body {
 
 /* General font families for common tags */
 font,th,td,p { font-family: Verdana, Arial, Helvetica, sans-serif }
-a:link,a:active,a:visited { color : #006699; }
-a:hover		{ text-decoration: underline; color : #DD6900; }
-hr	{ height: 0px; border: solid #D1D7DC 0px; border-top-width: 1px;}
+a:link,a:active,a:visited { color : #006091; }
+a:hover		{ text-decoration: underline; color : #ffffff; }
+hr	{ height: 0px; border: solid #006091 0px; border-top-width: 1px;}
 
 /* Main table cell colours and backgrounds */
 td.row1	{ background-color: #EFEFEF; }
