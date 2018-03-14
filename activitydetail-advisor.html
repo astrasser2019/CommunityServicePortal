@@ -2,75 +2,101 @@
 
  <HEAD>
     <TITLE>The Pingry School - Community Service</TITLE>
-    <link rel="stylesheet" href="/CommunityService/style.css" type="text/css">
+    <link rel="stylesheet" href="style.css" type="text/css">
  </HEAD>
 
 <BODY>
-    <H1 ALIGN="center"><IMG WIDTH="250" 
-SRC="/CommunityService/pingry.gif" 
-ALT="The Pingry School"><br>Community Service</H1>
-    <DIV ALIGN="center">
-      <TABLE BORDER="0" CELLPADDING="4">
-      <TR>
-        <TD><FONT SIZE="-1"><U>Name</U></FONT>
-<BR><A HREF="mailto:$USERNAME@pingry.org">$FIRSTNAME $LASTNAME</A></TD>
-        <TD><FONT SIZE="-1"><U>Grade</U> / <U>Advisor</U></FONT>
-<BR>$GRADE / $ADVISOR</TD>
-      </TR>
-      <TR>
-        <TD><FONT SIZE="-1"><U>Organization</U></FONT>
-<BR>$ORGNAME</TD>
-        <TD><FONT SIZE="-1"><U>Contact Person</U></FONT>
-<BR>$CONTACT</TD>
-      </TR>
-      <TR>
-        <TD><FONT SIZE="-1"><U>Date(s) of Service</U></FONT>
-<BR>$DATES</TD>
-        <TD><FONT SIZE="-1"><U>Contact's Phone</U></FONT>
-<BR>$CONTACTPHONE</TD>
-      </TR>
-      <TR>
-        <TD><FONT SIZE="-1"><U>Hours of Service</U></FONT>
-<BR>$HOURS</TD>
-        <TD><FONT SIZE="-1"><U>Contact's E-mail</U></FONT>
-<BR><A HREF="mailto:$CONTACTEMAIL">$CONTACTEMAIL</A></TD>
-      </TR>
-      <TR>
-        <TD COLSPAN="2"><FONT SIZE="-1"><U>What is the mission of the organization?</U></FONT>
-<BR>$ORGMISSION</TD>
-      </TR>
-      <TR>
-        <TD COLSPAN="2"><FONT SIZE="-1"><U>
-What services does the organization provide?</U></FONT>
-<BR>$ORGSERVICES</TD>
-      </TR>
-      <TR>
-        <TD COLSPAN="2"><FONT SIZE="-1"><U>
-Describe your service with the organization.</U></FONT>
-<BR>$VOLSERVICE</TD>
-      </TR>
-      <TR>
-        <TD COLSPAN="2"><FONT SIZE="-1"><U>
-How did your service reinforce the mission of the organization?</U></FONT>
-<BR>$REINFORCE</TD>
-      </TR>
-      <TR>
-        <TD COLSPAN="2"><FONT SIZE="-1"><U>
-Would you recommend volunteering at this organization to other students?</U></FONT>
-&nbsp; $RECOMMEND
-</TD>
-      </TR>
-        <TD COLSPAN="2"><FONT SIZE="-1"><U>
-Why?</U></FONT>
-<BR>$RECOMMENDWHY</TD>
-      </TR>
-        <TD COLSPAN="2"><FONT SIZE="-1"><U>
-What did you learn about yourself from your participation in this service?</U></FONT>
-<BR>$SELFLEARN</TD>
-      </TR>
-      </TABLE>
-<P><A HREF="javascript:close()">Close window</A></P>
-   </DIV>
+  <div class="page-bg">
+    <div class="page-bg-white">
+      <div class="header">
+        <IMG WIDTH="500" SRC="pingry.gif" ALT="The Pingry School">
+        <p>Community Service Portal</p>
+      </div>
+      <DIV ALIGN="center">
+        <TABLE BORDER="0" CELLPADDING="10">
+          <TR>
+            <TD><div class="question">Name</div>
+              <A HREF="mailto:$USERNAME@pingry.org">$FIRSTNAME $LASTNAME</A></TD>
+            <TD><div class="question">Grade / Advisor</div>
+              $GRADE / $ADVISOR</TD>
+          </TR>
+          <TR>
+            <TD>
+              <div class="question">Organization</div>
+              $ORGNAME
+            </TD>
+            <TD>
+              <div class="question">Contact Person</div>
+              $CONTACT
+            </TD>
+          </TR>
+            <TR>
+              <TD>
+                <div class="question">Date(s) of Service</div>
+                $DATES
+              </TD>
+              <TD><div class="question">Contact's Phone</div>
+                $CONTACTPHONE
+              </TD>
+          </TR>
+          <TR>
+            <TD>
+              <div class="question">Hours of Service</div>
+              $HOURS
+            </TD>
+            <TD>
+              <div class="question">Contact's E-mail</div>
+              <A HREF="mailto:$CONTACTEMAIL">$CONTACTEMAIL</A>
+            </TD>
+          </TR>
+          <TR>
+            <TD COLSPAN="2">
+              <div class="question">What is the mission of the organization?</div>
+              $ORGMISSION
+            </TD>
+          </TR>
+          <TR>
+            <TD COLSPAN="2">
+              <div class="question">What services does the organization provide?</div>
+              $ORGSERVICES
+            </TD>
+          </TR>
+          <TR>
+            <TD COLSPAN="2">
+              <div class="question">Describe your service with the organization.</div>
+              $VOLSERVICE
+            </TD>
+          </TR>
+          <TR>
+            <TD COLSPAN="2">
+              <div class="question">How did your service reinforce the mission of the organization?</div>
+              $REINFORCE
+            </TD>
+          </TR>
+          <TR>
+            <TD COLSPAN="2">
+              <div class="question">Would you recommend volunteering at this organization to other students?</div>
+              &nbsp; $RECOMMEND
+            </TD>
+          </TR>
+          <TR>
+            <TD COLSPAN="2">
+              <div class="question">Why?</div>
+              $RECOMMENDWHY
+            </TD>
+          </TR>
+          <TR>
+            <TD COLSPAN="2">
+              <div class="question">What did you learn about yourself from your participation in this service?</div>
+              $SELFLEARN
+            </TD>
+          </TR>
+        </TABLE>
+        <P><A HREF="javascript:close()">Close</A></P>
+        <br>
+      </DIV>
+    </div>
+  </div>
 </BODY>
 
 </HTML>

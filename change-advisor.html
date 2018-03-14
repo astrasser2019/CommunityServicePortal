@@ -6,26 +6,31 @@
  </HEAD>
 
 <BODY>
-    <H1 ALIGN="center"><IMG WIDTH="250"
-SRC="pingry.gif"
-ALT="The Pingry School"><br>Community Service</H1>
-    <DIV ALIGN="center">
-      <TABLE BORDER="0" CELLPADDING="4">
-      <TR>
-        <TD><FONT SIZE="-1"><U>Username</U></FONT></TD>
-        <TD><FONT SIZE="-1"><U>First name</U></FONT></TD>
-        <TD><FONT SIZE="-1"><U>Last name</U></FONT></TD>
-        <TD><FONT SIZE="-1"><U>Grade</U></FONT></TD>
-      </TR>
-     <FORM METHOD="POST" ACTION="advisor-change.cgi">
-      $SUMMARY
-      <TD COLSPAN="4" ALIGN="center"><P><INPUT TYPE="submit" VALUE="Save Changes"></P></TD>
-     </FORM>
-      </TABLE>
-     <FORM METHOD="POST" ACTION="advisor-main.cgi">
-      <P><INPUT TYPE="submit" VALUE="Return to Main Menu"></P>
-    </FORM>
-   </DIV>
+  <div class="page-bg">
+    <div class="page-bg-white">
+      <div class="header">
+        <IMG WIDTH="500" SRC="pingry.gif" ALT="The Pingry School">
+        <p>Community Service</p>
+      </div>
+      <DIV ALIGN="center">
+        <TABLE BORDER="0" CELLPADDING="4">
+          <TR>
+            <TH>Username</TH>
+            <TH>First name</TH>
+            <TH>Last name</TH>
+            <TH>Grade</TH>
+          </TR>
+          <FORM METHOD="POST" ACTION="advisor-change.cgi">
+            $SUMMARY
+            <TR><TD COLSPAN="4" ALIGN="center"><P><INPUT TYPE="submit" VALUE="Save Changes"></P></TD></TR>
+          </FORM>
+        </TABLE>
+        <FORM METHOD="POST" ACTION="advisor-main.cgi">
+          <P><INPUT TYPE="submit" VALUE="Return to Main Menu"></P>
+        </FORM>
+      </DIV>
+    </div>
+  </div>
 </BODY>
 
 </HTML>

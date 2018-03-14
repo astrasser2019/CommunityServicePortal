@@ -1,34 +1,48 @@
 <HTML>
-
  <HEAD>
     <TITLE>The Pingry School - Community Service</TITLE>
     <link rel="stylesheet" href="style.css" type="text/css">
  </HEAD>
 
 <BODY>
-    <H1 ALIGN="center"><IMG WIDTH="250"
-SRC="pingry.gif"
-ALT="The Pingry School"><br>Community Service</H1>
-    <DIV ALIGN="center">
-<!-- <H2><FONT COLOR="red">The Community Service Database is currently offline due to the Pingry username change and academic year rollover.  Please check back in a few days.</FONT></H2> -->
-      <FORM ACTION=""  METHOD="POST">
-      <TABLE BORDER="0">
-        <TR>
-          <TD><P>Username:</p></TD>
-          <TD>&nbsp;</TD>
-          <TD><INPUT NAME="username" SIZE="8"></TD>
-        </TR>
-        <TR>
-          <TD><P>Password:</p></TD>
-          <TD>&nbsp;</TD>
-          <TD><INPUT NAME="password" TYPE="password" SIZE="8"></TD>
-        </TR>
-        <TR>
-          <TD COLSPAN="3" ALIGN="center"><p> <br><INPUT NAME="submit" TYPE="submit" VALUE="Login"></p></TD>
-        </TR>
-     </TABLE>
-     </FORM>
-   </DIV>
+  <div class="header">
+    <IMG WIDTH="500" SRC="pingry.gif" ALT="The Pingry School">
+    <br>
+    <p>Community Service Portal</p>
+  </div>
+  <TABLE BORDER="0" style = "width: 100%;">
+    <TR>
+      <TD>
+        <IMG WIDTH = "350" SRC="CommunityServicePicture1.jpg" ALT="Community Service Image">
+      </TD>
+      <TD>
+        <DIV ALIGN="center">
+  <!-- <H2><FONT COLOR="red">The Community Service Database is currently offline due to the Pingry username change and academic year rollover.  Please check back in a few days.</FONT></H2> -->
+          <FORM ACTION=""  METHOD="POST">
+            <TABLE BORDER="0" style = "border:1px solid #6780a8; padding: 20px; border-radius: 13px">
+              <TR>
+                <TD><P class = "label">Username:</p></TD>
+                <TD>&nbsp;</TD>
+                <TD><INPUT NAME="username" SIZE="25" class="loginInput"></TD>
+              </TR>
+              <TR>
+                <TD><P class = "label">Password:</p></TD>
+                <TD>&nbsp;</TD>
+                <TD><INPUT NAME="password" TYPE="password" SIZE="25" class="loginInput"></TD>
+              </TR>
+              <TR>
+                <TD COLSPAN="3" ALIGN="center"><p> <br>
+                  <INPUT NAME="submit" TYPE="submit" VALUE="Login" style = "font-family:Helvetica; font-weight: 550; color:#164c83; padding: 8px; padding-right: 10px; padding-left: 10px"></p></TD>
+              </TR>
+            </TABLE>
+          </FORM>
+        </DIV>
+      </TD>
+      <TD>
+        <IMG WIDTH = "350" style = "float: right;" SRC="CommunityServicePicture2.jpg" ALT="Community Service Image">
+      </TD>
+    </TR>
+  </TABLE>
 </BODY>
 
 </HTML>
